@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
+            // printer will print both color or black n white
             Printer print = new Printer();
-            print.print(); // printing standard print
-            print.print("Print in black please"); // printing ing black n white
+            print.print("Print in black please");
+            print.print(true);
 
+            // colored printer will print only colored printer
             ColorPrinter coloredPrint = new ColorPrinter();
             coloredPrint.print(); // printing in colored print
 
